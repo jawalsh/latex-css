@@ -101,8 +101,8 @@
 }
 
 :root {
-  --body-color: hsl(0, 5%, 10%);
-  --body-bg-color: hsl(210, 20%, 98%);
+  --body-color: black;
+  --body-bg-color: white;
   --link-visited: hsl(0, 100%, 33%);
   --link-focus-outline: hsl(220, 90%, 52%);
   --pre-bg-color: hsl(210, 28%, 93%);
@@ -121,8 +121,8 @@
 }
 
 .latex-dark {
-  --body-color: hsl(0, 0%, 86%);
-  --body-bg-color: hsl(0, 0%, 16%);
+  --body-color: black;
+  --body-bg-color: white;
   --link-visited: hsl(196 80% 77%);
   --link-focus-outline: hsl(215, 63%, 73%);
   --pre-bg-color: hsl(0, 1%, 25%);
@@ -136,8 +136,8 @@
 
 @media (prefers-color-scheme: dark) {
    .latex-dark-auto {
-    --body-color: hsl(0, 0%, 86%);
-    --body-bg-color: hsl(0, 0%, 0%);
+    --body-color: black;
+    --body-bg-color: white;
     --link-visited: hsl(196 80% 77%);
     --link-focus-outline: hsl(215, 63%, 73%);
     --pre-bg-color: hsl(0, 1%, 25%);
