@@ -137,7 +137,7 @@
 @media (prefers-color-scheme: dark) {
    .latex-dark-auto {
     --body-color: hsl(0, 0%, 86%);
-    --body-bg-color: hsl(0, 0%, 16%);
+    --body-bg-color: hsl(0, 0%, 0%);
     --link-visited: hsl(196 80% 77%);
     --link-focus-outline: hsl(215, 63%, 73%);
     --pre-bg-color: hsl(0, 1%, 25%);
