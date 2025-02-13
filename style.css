@@ -169,7 +169,7 @@ dd {
 
 /* Make default font-size 1rem and add smooth scrolling to anchors */
 html {
-  font-size: 1rem;
+  font-size: 16px;
 }
 @media (prefers-reduced-motion: no-preference) {
   html {
@@ -183,9 +183,8 @@ body.libertinus {
 
 body {
   font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
+  max-width: 120ch;
   line-height: 1.2;
-
-  max-width: 80ch;
   min-height: 100vh;
   overflow-x: hidden;
   margin: 0 auto;
@@ -756,4 +755,20 @@ h4,
 h5,
 h6 {
   margin-bottom: 0.8rem;
+}
+
+@media print {
+html {
+font-size: 16pt;
+}
+body {
+max-width: inherit;
+margin-left: 1.25in;
+margin-right: 1.25in;
+}
+
+footer {
+float: right;
+font-size: 10pt;
+}
 }
