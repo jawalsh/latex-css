@@ -183,7 +183,7 @@ body.libertinus {
 
 body {
   font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
-  line-height: 1.8;
+  line-height: 1.2;
 
   max-width: 80ch;
   min-height: 100vh;
@@ -247,11 +247,16 @@ a:focus {
   outline: 2px solid var(--link-focus-outline);
 }
 
+blockquote {
+  font-size: 90%;
+}
 /* Make images easier to work with */
 img {
   max-width: 100%;
   height: auto;
   display: block;
+  margin: 1rem 0 1rem 0;
+  border: 1px solid black;
 }
 
 /* Inherit fonts for inputs and buttons */
