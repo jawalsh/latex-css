@@ -697,12 +697,13 @@ input.sidenote-toggle {
 h1 {
   font-size: 1.8rem;
   line-height: 1.8rem;
+  margin-top:1rem;
   margin-bottom: 1.25rem;
 }
 
 h2 {
   font-size: 1.6rem;
-  line-height: 1.6rem;
+  line-height: 2rem;
   margin-top: 1rem;
 }
 
