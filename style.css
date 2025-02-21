@@ -305,6 +305,10 @@ kbd {
 }
 
 /* Better tables */
+
+table {
+  margin-top: 1.5rem;
+}
 table:not(.borders-custom) {
   border-collapse: collapse;
   border-spacing: 0;
