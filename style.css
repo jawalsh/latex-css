@@ -253,8 +253,9 @@ blockquote {
 img {
   max-width: 100%;
   height: auto;
+  max-height: 32rem;
   display: block;
-  margin: 1rem 0 1rem 0;
+  margin: 1rem auto 1rem auto;
   border: 1px solid black;
 }
 
@@ -764,12 +765,12 @@ h6 {
 
 @media print {
 html {
-font-size: 16pt;
+font-size: 11pt;
 }
 body {
 max-width: inherit;
-margin-left: 1.25in;
-margin-right: 1.25in;
+margin-left: 1in;
+margin-right: 1in;
 }
 
 footer {
